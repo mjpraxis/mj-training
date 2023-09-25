@@ -16,6 +16,6 @@ jobs:
  Build:
   runs-on: ubuntu-latest
   steps:
-   - run: echo '{{ event.name }}'
+   - run: echo '${{ event.name }}'
    
   
