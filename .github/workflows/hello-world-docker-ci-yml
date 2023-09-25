@@ -1,0 +1,11 @@
+name: GitHub Action Demo
+on: [push, workflow_dispatch]
+
+jobs:
+ Build:
+  runs-on: ubuntu-latest
+  steps:
+   -name: Checkout
+    uses: action/checkout@v3.3.0
+   - Docker
+    uses: ./hello-world-docker-action/action
