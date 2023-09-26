@@ -2,6 +2,11 @@ name: GitHub Environment Demo
 
 on:
  workflow_dispatch:
+  inputs:
+   environment:
+    description: "Select environment"
+    type: environment
+    required: true
 
 jobs:
  Build:
