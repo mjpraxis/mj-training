@@ -1,7 +1,7 @@
 name: GitHub Environment Demo
 
 on:
-  workflow_dispatch:
+ workflow_dispatch:
 
 jobs:
  Build:
